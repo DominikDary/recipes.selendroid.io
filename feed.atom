@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4242/</id>
+  <title>Selendroid Recipes</title>
+  <updated>2014-04-28T12:37:53+02:00</updated>
+  <link href="http://localhost:4242/feed.atom" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4242/" rel="alternate" type="text/html" />
+  <entry>
+    <id>http://localhost:4242/blog/2014/04/29/thats-a-wrap/</id>
+    <title>That's a wrap?</title>
+    <updated>2014-04-28T12:37:53+02:00</updated>
+    <published>2014-04-29T00:00:00+00:00</published>
+    <link href="http://localhost:4242/blog/2014/04/29/thats-a-wrap/" rel="alternate" type="text/html" />
+    <author>
+      <name>Dominik Dary</name>
+    </author>
+    <summary>
+      Go enjoy the beach!
+      ...
+    </summary>
+    <content type="html">
+      &lt;p&gt;Go enjoy the beach!&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:4242/blog/2014/04/28/are-you-awestruct/</id>
+    <title>Are you awestruct?</title>
+    <updated>2014-04-28T12:37:49+02:00</updated>
+    <published>2014-04-28T00:00:00+00:00</published>
+    <link href="http://localhost:4242/blog/2014/04/28/are-you-awestruct/" rel="alternate" type="text/html" />
+    <author>
+      <name>Dominik Dary</name>
+    </author>
+    <summary>
+      What will it take to impress your hacker instinct?...
+    </summary>
+    <content type="html">
+      &lt;p&gt;What will it take to impress your hacker instinct?&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:4242/blog/2014/04/27/welcome-to-rwx-2012/</id>
+    <title>Welcome to</title>
+    <updated>2014-04-28T12:30:23+02:00</updated>
+    <published>2014-04-27T00:00:00+00:00</published>
+    <link href="http://localhost:4242/blog/2014/04/27/welcome-to-rwx-2012/" rel="alternate" type="text/html" />
+    <author>
+      <name>Dominik Dary</name>
+    </author>
+    <summary>
+      Welcome to our recipes collection...
+    </summary>
+    <content type="html">
+      &lt;p&gt;Welcome to our recipes collection&lt;/p&gt;
+    </content>
+  </entry>
+</feed>
