@@ -1,0 +1,6 @@
+---
+layout: post
+title: Are you awestruct?
+author: Dominik Dary
+---
+What will it take to impress your hacker instinct?

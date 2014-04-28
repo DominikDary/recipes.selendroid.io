@@ -1,0 +1,28 @@
+---
+layout: base
+title: Selendroid Recipes
+author: Dominik Dary
+---
+#content
+  .hero-unit
+    %h1 <img src="/img/selendroid-logo.png">
+    %p Test automation for native or hybrid Android apps and the mobile web with Selendroid.
+  - for post in page.posts
+    %article
+      %header.page-header
+        %h1.title
+          %a{:href=>post.qurl, :title=>'Click to go to post', :rel=>'tooltip'}= post.title
+        .meta
+          %time= post.date.strftime("%B %e, %Y")
+      .content
+        ~ post.content
+  .pagination
+    %ul
+      %li
+        - if page.posts.previous_page
+          %a{:href=>page.posts.previous_page.url}
+            %span.icon-step-backward
+      %li
+        - if page.posts.next_page
+          %a{:href=>page.posts.next_page.url}
+            %span.icon-step-forward

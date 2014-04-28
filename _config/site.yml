@@ -1,0 +1,18 @@
+title: Selendroid Recipes
+org: ebay Software Fondation
+ebay_software_foundation_page: http://ebayopensource.github.io/
+encoding: UTF-8
+source_repo: https://github.com/selendroid/selendroid
+irc_channel: selendroid
+mailing_list: http://groups.google.com/group/selendroid
+contributors: https://github.com/selendroid/recipes.selendroid.io/blob/master/AUTHORS
+google_analytics: UA-50448414-1
+
+profiles:
+  development:
+    deploy: nil # force development as the default
+  production:
+    base_url: http://recipes.selendroid.io/
+    minify: true
+    deploy:
+      host: github_pages
